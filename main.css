@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: hsl(271, 100%, 90%);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 25px;
+    background: hsl(298, 100%, 74%);
+    border: 0.5px solid #bdbdbd;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 25px;
+  font-family: "Courier New", Courier, monospace;
+  border: 0.5px solid #bdbdbd;
+}
+
+img {
+  border-radius: 25px;
+  border: 2px solid #bdbdbd;
+}
+
+.addOption {
+  margin-top: 10px;
+}
