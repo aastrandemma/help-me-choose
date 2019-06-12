@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  background-color: hsl(271, 100%, 90%);
+  background-color: #E6CCFF;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 button {
     font-family: "Courier New", Courier, monospace;
     border-radius: 25px;
-    background: hsl(298, 100%, 74%);
+    background: #FB7AFF;
     border: 0.5px solid #bdbdbd;
 }
 

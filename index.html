@@ -14,6 +14,21 @@
       </div>
       <button class="addOption">Add</button>
     </div>
+    <div class="resultSection">
+    </div>
     <button>Choose!</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('.resultSection').hide();
+
+        var add_option = function() {
+          $('.inputs').append('<input placeholder="Dish"/>')
+        };
+
+        $('.addOption').click(add_option);
+      });
+    </script>
   </body>
 </html>
